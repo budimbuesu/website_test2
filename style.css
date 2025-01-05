@@ -89,14 +89,21 @@ nav > button {
 
 .right-side {
   width: 50%;
+  height: 550px;
   display: flex;
-  justify-content: end;
+  justify-content: center;
   position: relative;
+  /* border: 2px solid red; */
 }
+#img-container {
+  z-index: 1;
+  align-self: flex-end;
+}
+
 .square-1 {
   background: green;
   width: 28vw;
-  height: 28vw;
+  height: 24vw;
   position: absolute;
-  right: 0;
+  align-self: flex-end;
 }
